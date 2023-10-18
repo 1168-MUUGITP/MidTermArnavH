@@ -1,23 +1,20 @@
 
 
 body {
-    font-family: 'Roboto Condensed', sans-serif;
-    margin: 0;
+    font-family: 'Roboto Condensed';
     background: #f9f6f6;
     height: auto;
 }
 
 h1 {
     font-weight: 400;
-    font-size: 2.5rem;
-    text-transform: uppercase;
+    font-size: 30px;
     margin: 0;
 }
 
 h2 {
     font-weight: 400;
-    font-size: 1.2rem;
-    text-transform: capitalize;
+    font-size: 30px;
     margin: 0;
 }
 
@@ -29,22 +26,18 @@ img {
 main {
     max-width: 900px;
     margin: auto;
-    box-shadow: 30px 0px 40px rgba(253, 252, 252, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1)
-}
-
-#landing {
-    background: #e5dcdc;
 }
 
 #landing-text {
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
     display: flex;
     flex: 0 1 40vw;
     height: 50vh;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    padding-right: 1rem;
-    padding-left: 1rem;
+   
 }
 
 #landing-text h2 {
@@ -112,30 +105,8 @@ footer p a {
     color: red;
 }
 
-/*Screen Sizes 500px +*/
 
-@media(min-width: 31.25rem) {
-    #landing {
-        display: flex;
-        height: 100%;
-    }
 
-    #landing-text {
-        height: 90vh;
-    }
-
-    #landing-image {
-        height: 90vh;
-    }
-}
-
-/*Screen Sizes 700px +*/
-
-@media(min-width: 43.75rem) {
-    .btn {
-        padding: 1rem 3rem;
-    }
-}
 
 .carousel-img {
     display: flex;
